@@ -1,0 +1,83 @@
+{
+  "_from": "rmc-gesture",
+  "_id": "rmc-gesture@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-Q0dyBU15zDhtoYqVRB5yQge87c8=",
+  "_location": "/rmc-gesture",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rmc-gesture",
+    "name": "rmc-gesture",
+    "escapedName": "rmc-gesture",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rmc-gesture/-/rmc-gesture-1.0.5.tgz",
+  "_shasum": "434772054d79cc386da18a95441e724207bcedcf",
+  "_spec": "rmc-gesture",
+  "_where": "/Users/zomato/npm-test",
+  "author": {
+    "name": "qiuyuntao@foxmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/react-component/m-gesture/issues"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "port": 8000
+  },
+  "dependencies": {
+    "classnames": "^2.2.3"
+  },
+  "deprecated": false,
+  "description": "react mobile component gesture ui component for react",
+  "devDependencies": {
+    "expect.js": "0.3.x",
+    "pre-commit": "1.x",
+    "rc-tools": "5.x",
+    "react": "0.14.x",
+    "react-addons-test-utils": "0.14.x",
+    "react-dom": "0.14.x"
+  },
+  "files": [
+    "lib",
+    "assets/*.css"
+  ],
+  "homepage": "https://github.com/react-component/m-gesture",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-mobile-component-gesture",
+    "rmc-gesture"
+  ],
+  "licenses": "MIT",
+  "main": "./lib/index",
+  "name": "rmc-gesture",
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-component/m-gesture.git"
+  },
+  "scripts": {
+    "build": "rc-tools run build",
+    "chrome-test": "rc-tools run chrome-test",
+    "coverage": "rc-tools run coverage",
+    "gh-pages": "rc-tools run gh-pages",
+    "karma": "rc-tools run karma",
+    "lint": "rc-tools run lint",
+    "pub": "rc-tools run pub",
+    "saucelabs": "rc-tools run saucelabs",
+    "start": "rc-tools run server",
+    "test": "rc-tools run test"
+  },
+  "version": "1.0.5"
+}
